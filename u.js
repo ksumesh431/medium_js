@@ -1,0 +1,1 @@
+javascript: (function () { if (window.location.hostname.includes("medium.com")) { window.location.href = `https://medium-free.vercel.app/read?url=${window.location.href}`; } else { alert("Please make sure you%27re onto medium.com post/article.") } })();
